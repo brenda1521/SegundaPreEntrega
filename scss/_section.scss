@@ -1,0 +1,49 @@
+.banner {
+    background-image:url(../img/1banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+   
+ }
+    
+ .bannerContenido {
+    z-index: 1;
+    width: 100%;
+    max-width:100%;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+ }
+ 
+ .título {
+    color: aliceblue;
+    font-size: 45px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+ }
+ 
+ .párrafo {
+    color: azure;
+    line-height: 1.7;
+    margin-bottom: 30px;
+ }
+ 
+ .botón {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #185a9d;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 6px;  
+    cursor: pointer;
+    border: none;
+    transition: all 0,5s;
+ }
+ 
+ .botón:hover {
+    background-color: blue;
+    padding: 20px;
+ }

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+ }
+ 
+ 
+ body {
+    background-color: palevioletred;
+ }
+ 
+ .logo {
+    width: 150px;
+ }
+
+ @media (max-width:1023px) {
+    .encabezado .botón {
+       display: none
+    }
+     }
+     
+     @media (max-width:768px) {
+       .encabezado {
+          height: auto;
+          flex-direction: column;
+          text-align: center;
+       }
+       .encabezado .botón {
+          display: none;
+       }
+    
+     }
