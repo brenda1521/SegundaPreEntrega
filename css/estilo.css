@@ -172,11 +172,12 @@ a {
  .imgYoutube, .imgFacebook, .imgInstagram {
 width:35px ;
 cursor: pointer;
-align-items: center;
+align-items: right;
+image-orientation: right;
  }
 
  .ubicación p {
-   text-align: center;
+   text-align: left;
  }
 
  .contenedorTerapias {
