@@ -56,10 +56,10 @@ h3 {
 .imgYoutube, .imgFacebook, .imgInstagram {
 width:35px ;
 cursor: pointer;
-align-items: right;
-image-orientation: right;
+justify-content: center;
+align-items: center;
 }
 
 .ubicación p {
- text-align: left;
+ text-align: center;
 }

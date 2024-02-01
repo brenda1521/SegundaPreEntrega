@@ -11,7 +11,7 @@ body {
 }
 
 .logo {
-  width: 150px;
+  width: 120px;
 }
 
 @media (max-width: 1023px) {
@@ -69,6 +69,7 @@ h1 {
   padding: 10px;
   font-weight: bold;
   font-size: 14px;
+  container: fluid;
 }
 
 .pFoto {
@@ -285,12 +286,12 @@ h3 {
 .imgYoutube, .imgFacebook, .imgInstagram {
   width: 35px;
   cursor: pointer;
-  align-items: right;
-  image-orientation: right;
+  justify-content: center;
+  align-items: center;
 }
 
 .ubicación p {
-  text-align: left;
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilo.css.map */
