@@ -1,10 +1,15 @@
+@mixin anclas {
+  cursor: pointer;
+  width: 35px;
+}
+
 .footer {
     background-color: #212121;
     color: white;
     padding: 20px 0;
   }
   
-  .footerContenido {
+  .footercontenido {
     border: 3px black solid;
     width: 100%;
     height: 100%;
@@ -13,14 +18,14 @@
 
 
   } 
-  .infoContacto,
-  .redesSociales {
+  .infocontacto,
+  .redessociales {
     align-items: center;
     text-align: center;
     width:100%;
   }
 
-.botónRS {
+.botonrs {
  border:none; 
 }
 
@@ -33,33 +38,10 @@ h3 {
  text-align: center;
 }
 
-.logoYoutube {
- width: 35px; 
- cursor: pointer;
+.logoyoutube, .logofacebook, .logoinstagram, .logowhatsapp {
+ @include anclas;
 }
 
-.logoFacebook {
- width: 35px; 
- cursor: pointer;
-}
-
-.logoInstagram {
- width: 35px; 
- cursor: pointer;
-}
-
-.logoWhatsapp {
- width: 35px;  
- cursor: pointer;
-}
-
-.imgYoutube, .imgFacebook, .imgInstagram {
-width:35px ;
-cursor: pointer;
-justify-content: center;
-align-items: center;
-}
-
-.ubicación p {
+.ubicacion p {
  text-align: center;
 }

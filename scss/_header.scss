@@ -1,3 +1,7 @@
+@mixin anclas {
+   text-decoration: none;
+   color: black;
+}
 
 header {
     display: flex;
@@ -12,8 +16,7 @@ header {
  }
  
  a { 
-    color: black;
-    text-decoration: none;
+   @include anclas;
     text-transform: uppercase;
     font-weight: 200;
  }

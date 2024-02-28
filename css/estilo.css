@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +14,7 @@ body {
 }
 
 @media (max-width: 1023px) {
-  .encabezado .botón {
+  .encabezado .boton {
     display: none;
   }
 }
@@ -25,7 +24,7 @@ body {
     flex-direction: column;
     text-align: center;
   }
-  .encabezado .botón {
+  .encabezado .boton {
     display: none;
   }
 }
@@ -43,8 +42,8 @@ li {
 }
 
 a {
-  color: black;
   text-decoration: none;
+  color: black;
   text-transform: uppercase;
   font-weight: 200;
 }
@@ -62,7 +61,7 @@ h1 {
   text-decoration: none;
 }
 
-.miFoto {
+.mifoto {
   text-align: center;
   background-color: pink;
   color: black;
@@ -72,29 +71,30 @@ h1 {
   container: fluid;
 }
 
-.pFoto {
+.pfoto {
   text-align: center;
 }
 
-.Foto {
+.foto {
   width: 400px;
   image-orientation: flip;
+  overflow: hidden;
 }
 
-.contenedorTerapias {
+.contenedorterapias {
   margin: 20px;
   border: 5px solid black;
   border-radius: 10px;
 }
 
-.imgTerapias {
+.imgterapias {
   display: flex;
   width: 100%;
   height: auto;
   image-orientation: center;
 }
 
-.contenedorT {
+.contenedort {
   text-align: center;
   background-color: antiquewhite;
   color: black;
@@ -129,7 +129,7 @@ input, textarea {
   margin-bottom: 10px;
 }
 
-.botonFormulario {
+.botonformulario {
   background-color: black;
   color: antiquewhite;
   border: none;
@@ -140,7 +140,7 @@ input, textarea {
   margin-top: 10px;
 }
 
-.padreFlex {
+.padreflex {
   background-color: antiquewhite;
   border-radius: 3px solid bisque;
   border-radius: 4px;
@@ -150,7 +150,7 @@ input, textarea {
   justify-content: center;
 }
 
-.contenedorProductos {
+.contenedorproductos {
   background-color: #fff;
   justify-content: center;
   text-align: center;
@@ -161,12 +161,12 @@ input, textarea {
   width: 300px;
 }
 
-.contenedorProductos p {
+.contenedorproductos p {
   margin: 10px 0;
   text-align: center;
 }
 
-.botónP {
+.botonp {
   background-color: #74B730;
   color: #fff;
   border: none;
@@ -176,8 +176,12 @@ input, textarea {
   margin-top: 10px;
 }
 
-.botónP:hover {
+.botonp:hover {
   background-color: #28a745;
+}
+
+.mapa {
+  overflow: hidden;
 }
 
 .banner {
@@ -190,7 +194,7 @@ input, textarea {
   display: flex;
 }
 
-.bannerContenido {
+.bannercontenido {
   z-index: 1;
   width: 100%;
   max-width: 100%;
@@ -199,20 +203,20 @@ input, textarea {
   text-align: center;
 }
 
-.título {
+.titulo {
   color: aliceblue;
   font-size: 45px;
   margin-bottom: 20px;
   letter-spacing: 1px;
 }
 
-.párrafo {
+.parrafo {
   color: azure;
   line-height: 1.7;
   margin-bottom: 30px;
 }
 
-.botón {
+.boton {
   color: aliceblue;
   text-decoration: none;
   background-color: #185a9d;
@@ -224,7 +228,7 @@ input, textarea {
   transition: all 0, 5s;
 }
 
-.botón:hover {
+.boton:hover {
   background-color: blue;
   padding: 20px;
 }
@@ -235,7 +239,7 @@ input, textarea {
   padding: 20px 0;
 }
 
-.footerContenido {
+.footercontenido {
   border: 3px black solid;
   width: 100%;
   height: 100%;
@@ -243,14 +247,14 @@ input, textarea {
   margin: auto;
 }
 
-.infoContacto,
-.redesSociales {
+.infocontacto,
+.redessociales {
   align-items: center;
   text-align: center;
   width: 100%;
 }
 
-.botónRS {
+.botonrs {
   border: none;
 }
 
@@ -263,34 +267,12 @@ h3 {
   text-align: center;
 }
 
-.logoYoutube {
-  width: 35px;
+.logoyoutube, .logofacebook, .logoinstagram, .logowhatsapp {
   cursor: pointer;
+  width: 35px;
 }
 
-.logoFacebook {
-  width: 35px;
-  cursor: pointer;
-}
-
-.logoInstagram {
-  width: 35px;
-  cursor: pointer;
-}
-
-.logoWhatsapp {
-  width: 35px;
-  cursor: pointer;
-}
-
-.imgYoutube, .imgFacebook, .imgInstagram {
-  width: 35px;
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
-}
-
-.ubicación p {
+.ubicacion p {
   text-align: center;
 }
 

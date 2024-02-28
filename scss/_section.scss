@@ -9,7 +9,7 @@
    
  }
     
- .bannerContenido {
+ .bannercontenido {
     z-index: 1;
     width: 100%;
     max-width:100%;
@@ -18,20 +18,20 @@
     text-align:center;
  }
  
- .título {
+ .titulo {
     color: aliceblue;
     font-size: 45px;
     margin-bottom: 20px;
     letter-spacing: 1px;
  }
  
- .párrafo {
+ .parrafo {
     color: azure;
     line-height: 1.7;
     margin-bottom: 30px;
  }
  
- .botón {
+ .boton {
     color: aliceblue;
     text-decoration: none;
     background-color: #185a9d;
@@ -43,7 +43,7 @@
     transition: all 0,5s;
  }
  
- .botón:hover {
+ .boton:hover {
     background-color: blue;
     padding: 20px;
  }

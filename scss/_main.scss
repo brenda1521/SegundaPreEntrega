@@ -1,4 +1,4 @@
-.miFoto {
+.mifoto {
     text-align:center;
     background-color: pink;
     color: black;
@@ -8,28 +8,29 @@
     container: fluid;
     }
  
-    .pFoto {
+    .pfoto {
        text-align:center;
     
     }
-    .Foto {
+    .foto {
        width: 400px;
        image-orientation: flip;
+       overflow: hidden;
      }
-     .contenedorTerapias {
+     .contenedorterapias {
         margin: 20px;
         border: 5px solid black;
         border-radius: 10px;
          }
         
-         .imgTerapias {
+         .imgterapias {
             display: flex;
             width: 100%;
             height: auto;
             image-orientation: center;
             
          }
-         .contenedorT {
+         .contenedort {
             text-align: center;
             background-color: antiquewhite;
             color: black;
@@ -64,7 +65,7 @@
             margin-bottom: 10px;
          }
         
-         .botonFormulario {
+         .botonformulario {
             background-color: black;
             color:antiquewhite;
             border: none;
@@ -75,7 +76,7 @@
             margin-top: 10px;
          }
          
-         .padreFlex {
+         .padreflex {
            background-color:antiquewhite;
            border-radius: 3px solid bisque;
            border-radius: 4px;
@@ -85,7 +86,7 @@
            justify-content: center;
          }
         
-         .contenedorProductos {
+         .contenedorproductos {
            background-color:#fff;
            justify-content: center;
            text-align: center;
@@ -96,12 +97,12 @@
            width: 300px;
          }
         
-          .contenedorProductos p {
+          .contenedorproductos p {
            margin: 10px 0;
            text-align: center;
           }
         
-           .botónP {
+           .botonp {
               background-color: #74B730;
               color: #fff;
               border: none;
@@ -111,7 +112,10 @@
               margin-top: 10px;
         }
         
-        .botónP:hover {
+        .botonp:hover {
            background-color: #28a745;
         }
         
+        .mapa {
+         overflow: hidden;
+        }
